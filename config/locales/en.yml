@@ -1,0 +1,63 @@
+en:
+  activemodel:
+    attributes:
+      admin/upload_attachment_form:
+        notes: "Attachment notes"
+        file_size: "File size:"
+
+    errors:
+      models:
+        admin/upload_attachment_form:
+          attributes:
+            notes:
+              blank: "should not be blank"
+            file_size:
+              too_big: "Way too big!"
+
+    models:
+      admin/upload_attachment_form: "Upload attachment for admins"
+
+
+  activerecord:
+    attributes:
+      user:
+        name: "Ninja Nickname"
+        favourite_languages:
+          crystal: "I love Crystal"
+          ruby: "Ruby forever"
+
+    errors:
+      messages:
+        blank: 'should really not be blank (3)'
+      models:
+        user:
+          #attributes:
+          #  name:
+          #    blank: 'should really not be blank (1)'
+          blank:
+            'Please fill out %{attribute}'
+
+    models:
+      user:
+        one: "Ninja"
+        other: "Ninjas"
+
+  errors:
+    attributes:
+     name:
+       blank: 'should really not be blank (4)'
+    messages:
+      blank: 'should really not be blank (5)'
+
+  home:
+    show:
+      sentence: "This is <b>really useful</b>"
+      sentence_html: "This is <b>incredibly useful</b>"
+  shared:
+    friend:
+      zero: "No friends"
+      one: "1 friend"
+      other: "%{count} friends"
+
+
+
